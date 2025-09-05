@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Página de Vendas - Estilo Kiwify</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .navbar-button {
+      background-color: #6200ea;
+      color: rgb(238, 233, 233);
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-size: 16px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    .navbar-button:hover {
+      background-color: #3700b3;
+    }
+  </style>
+</head>
+<body class="bg-blak text-gray-800 font-sans">
+
+  <!-- NAVBAR -->
+  <div class="flex justify-between items-center px-6 py-4 bg-gray-900 text-white">
+    <div class="text-2xl font-bold">Ola!</div>
+    <div class="flex gap-4">
+      <a href="#inicio" class="navbar-button">Início</a>
+      <a href="#servicos" class="navbar-button">Serviços</a>
+      <a href="#sobre" class="navbar-button">Sobre</a>
+      <a href="#contato" class="navbar-button">Contato</a>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <section id="inicio" class="max-w-3xl mx-auto px-6 py-16 text-center">
+    <h1 class="text-4xl md:text-5xl font-bold leading-tight text-gray-900 mb-6">
+      Aprenda a vender todos os dias com o Instagram
+    </h1>
+    <p class="text-lg md:text-xl mb-8 text-gray-600">
+      Descubra o passo a passo para transformar seu perfil em uma máquina de vendas com um método validado por +5.000 alunos.
+    </p>
+    <a href="#comprar" class="bg-green-500 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-green-600 transition">
+      Quero Começar Agora
+    </a>
+  </section>
+
+  <!-- VÍDEO OU IMAGEM -->
+  <section class="max-w-4xl mx-auto px-6 py-12">
+    <div class="aspect-w-16 aspect-h-9">
+      <iframe class="w-full h-64 md:h-[400px] rounded-xl shadow-md" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Vídeo de Vendas" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <!-- BENEFÍCIOS -->
+  <section id="servicos" class="bg-gray-100 py-16 px-6">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-10">Você vai aprender:</h2>
+      <div class="grid md:grid-cols-2 gap-6 text-left text-lg">
+        <p>✅ Como atrair seguidores interessados em comprar</p>
+        <p>✅ Técnicas de criação de conteúdo que gera vendas</p>
+        <p>✅ Estratégias para transformar stories em dinheiro</p>
+        <p>✅ Funil simples para vender todos os dias</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEPOIMENTOS -->
+  <section id="sobre" class="max-w-5xl mx-auto px-6 py-16 text-center">
+    <h2 class="text-3xl font-bold mb-12">Veja o que dizem nossos alunos:</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-white p-6 border rounded-lg shadow-sm">
+        <p>"Em 1 semana já recuperei o valor investido!"</p>
+        <p class="mt-4 font-semibold text-gray-700">— Ana Souza</p>
+      </div>
+      <div class="bg-white p-6 border rounded-lg shadow-sm">
+        <p>"Eu nunca tinha vendido nada online, agora vendo todo dia."</p>
+        <p class="mt-4 font-semibold text-gray-700">— Felipe Lima</p>
+      </div>
+      <div class="bg-white p-6 border rounded-lg shadow-sm">
+        <p>"Melhor curso que já comprei. Direto ao ponto e prático."</p>
+        <p class="mt-4 font-semibold text-gray-700">— Camila Reis</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- GARANTIA -->
+  <section class="bg-green-50 text-center py-16 px-6">
+    <h2 class="text-2xl font-bold mb-4">Garantia incondicional de 7 dias</h2>
+    <p class="text-lg text-gray-600">Se não gostar, basta um e-mail e devolvemos 100% do seu dinheiro.</p>
+  </section>
+
+  <!-- COMPRA -->
+  <section id="comprar" class="py-20 px-6 text-center">
+    <h2 class="text-3xl font-bold mb-6">Acesso imediato por apenas R$97</h2>
+    <p class="text-lg text="gray-600 mb-8"></p>
+
+    <section id="contato" class="py-20 px-6 text-center"> 
+      <h2 class="text=3xl front-bold mb-6">
+        Entre em contato conosco 
+      </h2>
